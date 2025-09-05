@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "dataset_name": "Therapeutic AI Response Dataset",
+    "version": "1.0",
+    "description": "RAG dataset for improving therapy chatbot responses with varied, contextual answers",
+    "topics": ["anxiety", "depression", "coping_strategies", "workplace_stress", "mindfulness", "therapeutic_techniques", "emotional_support"],
+    "total_entries": 25
+  },
+  "entries": [
+    {
+      "id": "001",
+      "topic": "anxiety_coping",
+      "keywords": ["anxiety", "overwhelmed", "panic", "worry", "stress"],
+      "user_context": "feeling anxious and overwhelmed",
+      "response": "It's completely normal to feel anxious - you're not alone in this. Try the 5-4-3-2-1 grounding technique: identify 5 things you can see, 4 you can touch, 3 you can hear, 2 you can smell, and 1 you can taste. This helps anchor you in the present moment when anxiety feels overwhelming.",
+      "tone": "empathetic_supportive",
+      "technique": "grounding_exercise"
+    },
+    {
+      "id": "002", 
+      "topic": "workplace_stress",
+      "keywords": ["work", "overwhelmed", "job pressure", "deadlines", "burnout"],
+      "user_context": "feeling overwhelmed at work",
+      "response": "Work overwhelm is incredibly common, especially in today's fast-paced environment. Try breaking your tasks into smaller, manageable chunks - what feels like a mountain becomes a series of small hills. Also, remember that taking short 5-minute breaks every hour isn't lazy; it's strategic recovery that actually improves your productivity.",
+      "tone": "understanding_practical",
+      "technique": "task_breakdown"
+    },
+    {
+      "id": "003",
+      "topic": "depression_support", 
+      "keywords": ["sad", "depressed", "hopeless", "lonely", "empty"],
+      "user_context": "expressing feelings of sadness or depression",
+      "response": "I hear you, and I want you to know that reaching out and talking about these feelings shows incredible strength. Depression can make everything feel heavy and hopeless, but these feelings, while very real, are temporary. You matter, and there are people who care about your wellbeing - including professional support if you need it.",
+      "tone": "warm_validating",
+      "technique": "validation_hope"
+    },
+    {
+      "id": "004",
+      "topic": "presentation_anxiety",
+      "keywords": ["presentation", "public speaking", "nervous", "performance anxiety"],
+      "user_context": "anxious about presentations or public speaking",
+      "response": "Presentation nerves are universal - even experienced speakers feel them! Try visualization: spend 5 minutes imagining yourself giving the presentation successfully, feeling confident, and receiving positive feedback. Also, practice the 4-7-8 breathing technique beforehand: breathe in for 4 counts, hold for 7, exhale for 8. This activates your calm response.",
+      "tone": "encouraging_practical",
+      "technique": "visualization_breathing"
+    },
+    {
+      "id": "005",
+      "topic": "mindfulness_introduction",
+      "keywords": ["mindfulness", "meditation", "present moment", "awareness"],
+      "user_context": "interested in mindfulness or staying present",
+      "response": "Mindfulness is simply paying attention to this moment without judgment. You don't need to empty your mind or sit in lotus position. Try this: for the next minute, just notice your breathing. When your mind wanders (and it will), gently bring attention back to your breath. That's it - you're being mindful.",
+      "tone": "gentle_instructional",
+      "technique": "breath_awareness"
+    },
+    {
+      "id": "006",
+      "topic": "sleep_anxiety",
+      "keywords": ["can't sleep", "insomnia", "racing thoughts", "bedtime worry"],
+      "user_context": "having trouble sleeping due to anxiety",
+      "response": "Racing thoughts at bedtime are so frustrating. Try the 'worry window' technique: set aside 15 minutes earlier in the day to write down your worries, then tell your brain 'I've already handled this today.' At bedtime, if worries arise, remind yourself of your worry window. Also, try progressive muscle relaxation - tense and release each muscle group from toes to head.",
+      "tone": "understanding_solution_focused",
+      "technique": "worry_window_muscle_relaxation"
+    },
+    {
+      "id": "007",
+      "topic": "social_anxiety",
+      "keywords": ["social anxiety", "awkward", "embarrassed", "social situations"],
+      "user_context": "feeling anxious in social situations",
+      "response": "Social anxiety tricks us into thinking everyone is watching and judging us, but most people are actually focused on themselves. Before social events, try the 'best friend' technique: speak to yourself the way you'd speak to a good friend facing the same situation. You'd be kind and encouraging, not critical.",
+      "tone": "reassuring_reframing",
+      "technique": "self_compassion"
+    },
+    {
+      "id": "008",
+      "topic": "perfectionism",
+      "keywords": ["perfectionist", "good enough", "failure", "high standards"],
+      "user_context": "struggling with perfectionism",
+      "response": "Perfectionism often feels like it's helping us succeed, but it's actually fear wearing a disguise. Try the 'good enough' experiment: intentionally do something at 80% instead of 100% and notice that the world doesn't end. Progress over perfection isn't just a saying - it's a more sustainable way to live.",
+      "tone": "insight_oriented_gentle",
+      "technique": "behavioral_experiment"
+    },
+    {
+      "id": "009",
+      "topic": "relationship_stress",
+      "keywords": ["relationship", "conflict", "communication", "partner", "family"],
+      "user_context": "dealing with relationship difficulties",
+      "response": "Relationship conflicts are growth opportunities in disguise, though they rarely feel that way in the moment. Try the 'I feel' statements instead of 'you always' statements. For example: 'I feel unheard when conversations get heated' rather than 'You never listen.' This opens dialogue instead of triggering defensiveness.",
+      "tone": "balanced_constructive",
+      "technique": "communication_skills"
+    },
+    {
+      "id": "010",
+      "topic": "grief_loss",
+      "keywords": ["grief", "loss", "death", "mourning", "bereavement"],
+      "user_context": "processing grief or loss",
+      "response": "Grief isn't something to 'get over' - it's something to learn to carry differently. Your feelings are valid, whether it's been days or years. There's no timeline for grief. Honor your process and be patient with yourself. Some days will be harder than others, and that's completely normal.",
+      "tone": "gentle_validating",
+      "technique": "grief_normalization"
+    },
+    {
+      "id": "011",
+      "topic": "self_esteem",
+      "keywords": ["self-worth", "confidence", "self-doubt", "insecurity"],
+      "user_context": "struggling with low self-esteem",
+      "response": "Self-worth isn't built overnight, but it is built through small, consistent actions. Try keeping a 'evidence journal' - each day, write down one thing you did well, no matter how small. Over time, you'll have concrete proof of your capabilities and worth, which is much stronger than positive thinking alone.",
+      "tone": "empowering_practical",
+      "technique": "evidence_building"
+    },
+    {
+      "id": "012",
+      "topic": "change_transition",
+      "keywords": ["change", "transition", "uncertainty", "new job", "moving"],
+      "user_context": "dealing with major life changes",
+      "response": "Change, even positive change, can feel destabilizing because our brains prefer predictability. It's okay to feel anxious about transitions. Try to identify what you can control in this change and what you can't. Focus your energy on the 'can control' list - this gives you agency when everything else feels uncertain.",
+      "tone": "normalizing_empowering",
+      "technique": "control_vs_acceptance"
+    },
+    {
+      "id": "013",
+      "topic": "anger_management",
+      "keywords": ["angry", "frustrated", "rage", "irritated", "mad"],
+      "user_context": "dealing with anger or frustration",
+      "response": "Anger is often a secondary emotion - underneath it might be hurt, fear, or feeling powerless. Before reacting, try the 'STOP' technique: Stop what you're doing, Take a breath, Observe what you're feeling and thinking, then Proceed with intention. This creates space between the trigger and your response.",
+      "tone": "understanding_structured",
+      "technique": "stop_technique"
+    },
+    {
+      "id": "014",
+      "topic": "loneliness",
+      "keywords": ["lonely", "isolated", "alone", "disconnected", "friendless"],
+      "user_context": "feeling lonely or isolated",
+      "response": "Loneliness is one of the most human experiences - you're not broken for feeling it. Sometimes loneliness isn't about being alone, but about not feeling understood or connected. Small connections count: a genuine conversation with a cashier, joining an online community, or volunteering. Connection doesn't always require deep friendship.",
+      "tone": "validating_hopeful",
+      "technique": "connection_building"
+    },
+    {
+      "id": "015",
+      "topic": "procrastination",
+      "keywords": ["procrastination", "putting off", "delay", "avoidance", "lazy"],
+      "user_context": "struggling with procrastination",
+      "response": "Procrastination isn't laziness - it's often anxiety, perfectionism, or feeling overwhelmed in disguise. Try the '2-minute rule': if something takes less than 2 minutes, do it now. For bigger tasks, commit to just 15 minutes. Often, starting is the hardest part, and momentum builds naturally.",
+      "tone": "reframing_actionable",
+      "technique": "micro_commitments"
+    },
+    {
+      "id": "016",
+      "topic": "boundary_setting",
+      "keywords": ["boundaries", "saying no", "people pleasing", "overwhelmed by others"],
+      "user_context": "difficulty setting boundaries",
+      "response": "Setting boundaries isn't selfish - it's necessary for your wellbeing and actually improves relationships. Start small: practice saying 'Let me check my schedule and get back to you' instead of automatically saying yes. This gives you time to consider whether you truly want to commit.",
+      "tone": "empowering_practical",
+      "technique": "boundary_practice"
+    },
+    {
+      "id": "017",
+      "topic": "trauma_response",
+      "keywords": ["trauma", "triggered", "flashback", "PTSD", "overwhelming memories"],
+      "user_context": "dealing with trauma responses",
+      "response": "Trauma responses are your nervous system trying to protect you, even when you're safe now. When you feel triggered, try grounding: feel your feet on the floor, name the current date and your location out loud, or hold an ice cube. These help your brain recognize you're in the present, not the past.",
+      "tone": "gentle_trauma_informed",
+      "technique": "grounding_safety"
+    },
+    {
+      "id": "018",
+      "topic": "body_image",
+      "keywords": ["body image", "appearance", "weight", "self-image", "mirror"],
+      "user_context": "struggling with body image",
+      "response": "Body image struggles are incredibly common in our image-focused culture. Try shifting focus from how your body looks to what it does for you. Your legs carry you places, your arms hug people you love, your hands create things. Gratitude for function can slowly shift the relationship with form.",
+      "tone": "compassionate_reframing",
+      "technique": "functional_appreciation"
+    },
+    {
+      "id": "019",
+      "topic": "decision_making",
+      "keywords": ["decisions", "choices", "indecisive", "uncertainty", "what if"],
+      "user_context": "struggling with decision making",
+      "response": "Decision paralysis often comes from trying to make the 'perfect' choice. Try the '10-10-10 rule': How will you feel about this decision in 10 minutes, 10 months, and 10 years? This helps put decisions in perspective. Also remember: most decisions are reversible or adjustable.",
+      "tone": "clarifying_perspective_giving",
+      "technique": "decision_framework"
+    },
+    {
+      "id": "020",
+      "topic": "comparison",
+      "keywords": ["comparison", "jealousy", "social media", "everyone else", "not good enough"],
+      "user_context": "comparing themselves to others",
+      "response": "Comparison truly is the thief of joy - you're comparing your inside experience to others' outside appearance. Try a 'gratitude redirect': when you catch yourself comparing, immediately name three things you're grateful for in your own life. This rewires your brain toward appreciation rather than lacking.",
+      "tone": "wise_redirecting",
+      "technique": "gratitude_practice"
+    },
+    {
+      "id": "021",
+      "topic": "panic_attacks",
+      "keywords": ["panic attack", "can't breathe", "heart racing", "dizzy", "losing control"],
+      "user_context": "experiencing panic attacks",
+      "response": "Panic attacks feel terrifying but they're not dangerous - your body is having a false alarm. During an attack, try 'box breathing': breathe in for 4 counts, hold for 4, out for 4, hold for 4. Repeat. Also remind yourself: 'This is uncomfortable but not dangerous. It will pass.' Panic attacks always end.",
+      "tone": "calm_reassuring",
+      "technique": "box_breathing_reality_testing"
+    },
+    {
+      "id": "022",
+      "topic": "imposter_syndrome",
+      "keywords": ["imposter syndrome", "fraud", "don't deserve", "luck", "fake it"],
+      "user_context": "feeling like an imposter",
+      "response": "Imposter syndrome affects up to 70% of people - you're in excellent company! Keep an 'accomplishment file' - emails praising your work, certificates, positive feedback. When imposter feelings arise, review this evidence. You earned your place through skill and effort, not luck.",
+      "tone": "normalizing_evidence_based",
+      "technique": "evidence_collection"
+    },
+    {
+      "id": "023",
+      "topic": "motivation_loss",
+      "keywords": ["unmotivated", "no energy", "don't care", "giving up", "hopeless"],
+      "user_context": "feeling unmotivated or hopeless",
+      "response": "Loss of motivation can be your mind and body's way of saying they need rest or a different approach. Instead of forcing motivation, try tiny actions: make your bed, drink a glass of water, step outside for two minutes. Small wins can slowly rebuild the momentum that creates motivation.",
+      "tone": "understanding_gentle_action",
+      "technique": "micro_actions"
+    },
+    {
+      "id": "024",
+      "topic": "financial_stress",
+      "keywords": ["money", "financial", "broke", "bills", "debt", "afford"],
+      "user_context": "dealing with financial stress",
+      "response": "Financial stress affects every area of life - it's completely understandable to feel overwhelmed. Focus on what you can control today: one small financial action like organizing bills, making a budget, or researching one resource. Breaking it into tiny steps makes it less overwhelming.",
+      "tone": "validating_action_oriented",
+      "technique": "incremental_control"
+    },
+    {
+      "id": "025",
+      "topic": "holiday_depression",
+      "keywords": ["holidays", "seasonal", "family stress", "expectations", "loneliness during holidays"],
+      "user_context": "struggling during holidays or seasonal times",
+      "response": "Holidays can amplify both joy and pain - if you're struggling, you're not alone. Create new traditions that feel authentic to you, even if they're small. It's okay to limit time with difficult family or to acknowledge that holidays feel different now. Your feelings are valid.",
+      "tone": "permission_giving_validating",
+      "technique": "authentic_tradition_creation"
+    }
+  ],
+  "usage_instructions": {
+    "embedding_approach": "Use sentence transformers or OpenAI embeddings to vectorize keywords, user_context, and responses",
+    "retrieval_strategy": "Semantic similarity search + emotional_weight matching + response_length filtering",
+    "prompt_injection_examples": [
+      "For brief responses: 'Respond in 1-2 sentences with warmth and authenticity'",
+      "For detailed responses: 'Provide thorough, empathetic support with specific techniques'",
+      "For crisis: 'Prioritize safety, provide resources, show immediate care'"
+    ],
+    "dynamic_adaptation": [
+      "Match response length to user's input length and emotional intensity",
+      "Use brief responses for casual check-ins, detailed for pain",
+      "Include follow-up questions for engagement when appropriate",
+      "Vary sentence structure and vocabulary to avoid repetition"
+    ]
+  },
+  "expansion_guidelines": {
+    "new_entries": "Follow same JSON structure with unique IDs",
+    "quality_criteria": [
+      "Empathetic and validating tone",
+      "Specific, actionable techniques",
+      "Varied language patterns",
+      "Professional but warm approach"
+    ],
+    "topic_gaps_to_fill": [
+      "LGBTQ+ specific concerns",
+      "Cultural and ethnic considerations", 
+      "Addiction and recovery support",
+      "Chronic illness coping",
+      "Academic stress",
+      "Parenting challenges"
+    ]
+  }
+}
